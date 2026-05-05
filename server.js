@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
             case "/auth.js": return res.end(authScript)
         }
     }
-
+//hello world
     if (req.method === "POST") {
         switch(req.url) {
             case "/api/register": return registerUser(req, res)
