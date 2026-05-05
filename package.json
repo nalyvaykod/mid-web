@@ -1,0 +1,34 @@
+{
+  "name": "chat",
+  "version": "0.0.5",
+  "description": "robocode chat project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salamandra19977/chat-project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "robocode",
+    "project",
+    "chat"
+  ],
+  "author": "Robocode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salamandra19977/chat-project/issues"
+  },
+  "homepage": "https://github.com/Salamandra19977/chat-project#readme",
+  "dependencies": {
+    "socket.io": "^4.8.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
